@@ -1,0 +1,88 @@
+body{
+    
+    background-color: #008080;
+}
+
+.titulo{
+    font-family: Arial;
+    font-size:40px;
+}
+
+table tr:nth-child(1){
+    color:cadetblue;
+    background-color:black; 
+    font-family:Times new roman;
+    font-size: 20px;
+}
+table{
+    padding: 3px;
+    border-style: ridge;
+    color: white;
+    font-family: Arial;
+    background-color: slategray;
+    background: #2F4F4F;
+     width: 560px;
+    height: 300px;
+    
+    
+    
+}
+  button{
+       color: rgba(255, 255, 255, 1) !important;
+  box-shadow: 0 4px 16px rgba(49, 138, 172, 1);
+  transition: all 0.2s ease;
+  color: rgba(255, 255, 255, 0.9) !important;
+  font-size: 16px;
+  font-weight: 100;
+ 
+  background: #318aac;
+  border: 5px solid;
+  border-radius: 3px;
+  border-color: #318aac;
+  background: #316aac;
+ 
+  position: relative;
+   }
+   
+   .print{
+       display: grid;
+       grid-template-columns: 45% 50%;
+       
+   }
+   .registro{
+       padding: 20px;
+            color: rgba(255, 255, 255, 1) !important;
+  box-shadow: 0 4px 16px rgba(49, 138, 172, 1);
+  transition: all 0.2s ease;
+       color: rgba(255, 255, 255, 0.9) !important; 
+           background: #2F4F4F;
+    width: 430px;
+    height: 300px;
+   
+    border-style: groove ;
+    border-radius: 15px;
+  
+   }
+   .input1{
+       width: 300px;
+       height: 40px;
+       border-radius:10px; 
+       background-color: #D3D3D3;
+   }
+    .input2{
+       width: 300px;
+       height: 40px;
+       border-radius:10px; 
+       font-size: 20px;
+        background: #318aac;
+  border: 5px solid;
+  border-radius: 3px;
+  border-color: #318aac;
+  background: #316aac;
+   }
+   textarea{
+       width: 350px;
+       height: 100px;
+       border-radius:10px; 
+        background-color: #D3D3D3;
+   }

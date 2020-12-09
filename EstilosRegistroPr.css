@@ -1,0 +1,117 @@
+body{
+    padding: 10px;
+        background-color: silver;
+
+}
+section{
+    padding: 5px;
+    float: left;
+    padding: 20px;
+    color: rgba(255, 255, 255, 1) !important;
+  box-shadow: 0 4px 16px rgba(49, 138, 172, 1);
+  transition: all 0.2s ease;
+  background: #5F9EA0;
+ 
+    width: 520px;
+    height: 560px;
+   
+    border-style: groove ;
+    border-radius: 15px;
+  
+    
+    
+position: relative;
+}
+
+fieldset{
+    width: 450px;
+}
+.titulo{
+    text-align: center;
+    color: white;
+}
+   .prin{
+       display: grid;
+       grid-template-columns: 45% 50%;
+       
+   }
+
+table tr:nth-child(1){
+    color:cadetblue;
+    background-color:black; 
+    font-family:Times new roman;
+    font-size: 20px;}
+table{
+    width: 640px;
+ 
+    border: solid 2px;
+    position: relative;
+       left:30px; 
+}
+#clase1{
+ 
+  border-radius: 3px;
+  position: relative;
+  left:30px;
+}
+ button{
+       color: rgba(255, 255, 255, 1) !important;
+  box-shadow: 0 4px 16px rgba(49, 138, 172, 1);
+  transition: all 0.2s ease;
+  color: rgba(255, 255, 255, 0.9) !important;
+  font-size: 16px;
+  font-weight: 100;
+ 
+  background: #318aac;
+  border: 5px solid;
+  border-radius: 3px;
+  border-color: #318aac;
+  background: #316aac;
+ 
+  position: relative;
+   }
+   legend{
+       font-family:Blackadder ITC;
+       font-size: 30px;
+       color:black;
+   }
+   label{
+       font-family: Arial;
+       font-size: 20px;
+       color:black;
+   }
+   input{   width: 300px;
+       height: 40px;
+       border-radius:10px; 
+       background-color: #D3D3D3;
+   }
+     textarea{
+       width: 350px;
+       height: 60px;
+       border-radius:10px; 
+        background-color: #D3D3D3;
+   }
+   .formEnviar{
+       left: 135px;
+       width: 200px;
+       position: relative;
+       color:black;
+       background:cornflowerblue;
+       border:6px solid #008080;
+       border-radius: 7px;
+       border:none;
+       color:white;
+       
+       display: inline-block;
+       -webkit-transition-duration: 0.5s;
+       cursor: pointer;
+       text-decoration: none;
+       text-transform: uppercase;
+       border-style: ridge;
+           
+   }
+   select{
+       width: 130px;
+       height: 28px;
+       border-radius: 6px;
+   }
